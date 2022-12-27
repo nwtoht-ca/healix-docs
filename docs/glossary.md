@@ -4,6 +4,14 @@ sidebar_position: 9
 
 # Glossary
 
+#### Dynamic Data Model
+
+The fields, categories and entities created by defining a plan template.
+
+#### Entity
+
+A top level object in the dynamic data model.  Supported objects are carePlan (soon to be renamed "plan") and submissions (data from submitted forms)
+
 ##### Form Assignment (Task)
 
 A form that has been assigned to a user.

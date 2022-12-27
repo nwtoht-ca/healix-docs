@@ -11,4 +11,16 @@ sidebar_position: 10
 ### Forms Improvements
 #### Template Scoped Forms
 * Currently forms exist in a global space, meaning any plan template can reference an individual form.  We are changing this so that a form's scope is limited to the current template.  This means that you edit the forms within the template editor and editing a form cannot inadvertently break other templates.
-  
+### Rules Improvements
+
+#### More than one Action
+
+Currently a row on the decision table leads to only one action.  This causes unnecessary duplication when a content manager wants to create many actions based on the same criteria.  We will add the ability to create multiple actions.
+
+#### Decision Tree Editor
+
+The current decision table offers the maximum flexibility to express any arbitrary set of conditions and will remain a key component to definition rules. However, understanding, visualizing and maintaining rules with multiple conditions becomes unwieldy.  To address this we will add a decision tree editor which will present a tree like decision structure.
+
+#### Calculated Columns
+
+In order to expand the flexibility of the rules editor, we plan to allow *Healix Calculation Expressions* to be added as column types.

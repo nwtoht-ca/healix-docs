@@ -22,7 +22,7 @@ The overview tab contains basic information about the plan and lets you perform 
 
 **Import and Export** - These commands allows you to share your template with others or move it from one system to another.
 
-**View Data Model** - This button displays a list of all the data points that where created by the forms fields and custom fields defined in the plan template.  This is useful if you need to reference a data point.  To learn more about the Data Model see the [Dynamic Data Model](../dynamic-data-model/data-model-into).
+**View Data Model** - This button displays a list of all the data points that where created by the forms fields and custom fields defined in the plan template.  This is useful if you need to reference a data point.  To learn more about the Data Model see the [Dynamic Data Model](../dynamic-data-model/data-model-intro).
 
 
 
