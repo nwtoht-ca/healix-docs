@@ -21,7 +21,7 @@ sidebar_position: 2
   * The *While* field dropdown allows you to select a field from the [Dynamic Data Model](../../dynamic-data-model/data-model-intro)
   * The *Value to Compare* field allows you to enter a value. When the value of field specified in the *While* dropdown is equal to the value entered here, the task will be displayed
 * When *Field Not Equal to Values is selected, the behavior is the same as *Field Equal to Value* except, the condition for the task be displayed is when the value does equal the field
-* *Expression is True* allows you to enter and arbitrary boolean [expression](/docs/dynamic-data-model/expressions) using the *Healix Calculation Grammar*.
+* *Expression is True* allows you to enter and arbitrary boolean [expression](/docs/dynamic-data-model/expressions) using the *[Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar)*.
 
 **Consider not done upon care plan update** - This setting controls when a task re-appears. When set to true, changing the an attribute of the plan, such as the risk status, status, end date or any [Custom Field](./custom-fields) will cause the task to reappear if it was being suppressed due to it being already submitted.  For example, if the Frequency is set to *Once Only*, the task will not show after the user submits that form and *Consider not done upon care plan update* is off. However, if *Consider not done upon care plan update* is on, then a change to a plan attribute will cause the task to re-appear.
 
@@ -46,7 +46,7 @@ sidebar_position: 2
 
 **Default Calculations** - An initial value can be computed to pre-fill a field with an [expression](/docs/dynamic-data-model/expressions)
 
-When a form is prepared for the end user to complete, calculations are performed to compute pre-filled values.  Note that this is different from default values defined in the form editor because values can be computed from previous form submissions using the *Healix Calculation Grammar*.
+When a form is prepared for the end user to complete, calculations are performed to compute pre-filled values.  Note that this is different from default values defined in the form editor because values can be computed from previous form submissions using the  [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar).
 
 When you click the *Default Calculations* button.  A list of calculations is displayed (if any).  You can add a new *Default Calculation* by clicking the *Add* button or editing an existing one by clicking on the row.
 

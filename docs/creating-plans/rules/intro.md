@@ -16,7 +16,12 @@ The decision table editor is modeled on a spreadsheet.  To add a new rule, just 
 
   **Value Columns** - The next set of columns allow you to define a values to examine with your business logic.  To add a new column, click the *Add Column* button and choose on field from the list of fields from the [Dynamic Data Model](/docs/dynamic-data-model/data-model-intro.md).  You can also click an existing column heading to change the field that is examined by the rules.
 
-   * Once you have created the column, you can enter a value (and comparison operator) in the main body of the table. 
+   * Once you have created the column, you can enter a value (and comparison operator) in the main body of the table. See [Rules Shorthand Syntax](./shorthand-syntax) for details
+   * If you enter a value in more than one column for a given row (rule) each of the comparisons must be true in order for the rule to fire.  In other words, the values are logically ANDed.
 
 
-Note that we plan several enhancements to the rules editor.  See the [Roadmap](/docs/roadmap##rules-improvements)
+Value columns can be removed with the Hamburger menu beside the column name. 
+
+Rule rows can be removed by clicking the trash can icon on the row to be deleted.
+
+Note that we plan several enhancements to the rules editor.  See the [Roadmap](/docs/roadmap#rules-improvements)

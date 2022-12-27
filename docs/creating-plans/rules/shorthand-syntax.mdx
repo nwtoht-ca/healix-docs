@@ -1,0 +1,110 @@
+---
+sidebar_position: 3
+---
+# Rules Shorthand Syntax
+
+When defining the business logic for a rule to fire, a value is entered into the decision table.  This causes the rules engine to compare the value entered in the decision table with the field specified in the column header.
+
+The default comparison (a.k.a. operator), is equality.  For example, if the column field is *gender* with the choice of "male" or "female", if you enter "male" and a user submits a form where gender is equal to "male" the rule will fire. 
+
+You you wanted a comparison (operator) other than equals, you can enter is before the value.  For example, if the column field is *age*, you could enter <50.  If the user submits a form with a value of age less than fifty, then the rule will fire.
+
+Do not surround text values with quotes.
+
+If you enter a value in more than one column for a given row (rule) each of the comparisons must be true in order for the rule to fire.  In other words, the values are logically ANDed.
+
+Do not confuse the *Rules Short Hand Syntax* with the [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar). The rules syntax is further simplified and always assumes a comparison will be provided.  The  [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar) can compute an arbitray calculation and is not necessarily a comparison.
+
+## Field Types and Accepted Values and Operators
+
+The field type being compared determines what values and operators are acceptable.
+
+### Boolean
+
+Boolean fields (fields with only a true or false, on/off values) only accept equality operators.
+
+You may enter
+
+
+<table>
+  <tr>
+    <th>Field Type</th>
+    <th>Operators</th>
+    <th>Values</th>
+    <th>Notes and Examples</th>
+  </tr>
+  <tr>
+    <td>boolean</td>
+    <td>=</td>
+    <td>yes, no, true, false</td>
+    <td>= is not required</td>
+  </tr>
+  <tr>
+    <td>text</td>
+    <td>equal, =, eq, notEq, !=, notEqual, in, notIn, contains=, doesNotContain=</td>
+    <td>any</td>
+    <td style={{wordWrap: "break-word", width: "40vw"}}>Generally rules referencing text fields are highly discouraged because users can enter anything. Use a choice, boolean or number instead. Examples:
+<pre>
+
+=someText
+someText (simply type text to compare its equality)
+eq someText (a variation of =)
+!=someText 
+notEq someText (a variation of !=)
+notEqual someText (a variation of !=)
+in[1,2,3,4] (a value should be found in array)
+notIn[1,2,3,4] (a value should not be found in array)
+contains=aaa (value aaa contains in array of strings [aaa, bob, ccc])
+doesNotContain=aaa (value aaa is not in array of strings [bob, ccc, ddd])
+</pre>
+    </td>
+  </tr>
+  <tr>
+    <td>choice</td>
+    <td>=</td>
+    <td>any value that is defined for the field being compared</td>
+    <td>= is not required</td>
+  </tr>
+  <tr>
+    <td>choices</td>
+    <td>=</td>
+    <td>any value that is defined for the field being compared</td>
+    <td>= is not required</td>
+  </tr>
+  <tr>
+    <td>number</td>
+    <td> &lt;=, &lt;, &gt;=, &gt;, =, != in, notIn, range, !range</td>
+    <td>numbers, lists of numbers, ranges</td>
+    <td>Examples:
+<pre>
+
+&lt;=10 (less or equal than 10)
+&lt;10 (less than 10)
+&gt;=10 (greater or equal to 10')
+&gt;10 (greater than 10)
+=10 (equal to 10)
+!=10 (not equal to 10)
+in[1,2,3] (value should be in this array)
+notIn[1,2,3] (value should not be in this array)
+range[22,33] (value greater or equal to 22 and value is smaller or equal to 33)
+range(22,33] (value greater than 22 and value is smaller or equal to 33)
+range(22,33) (value greater than 22 and value is smaller than 33)
+range[22,33] (value less than 22 OR value is greater than 33)
+!range(22,33] (value less or equal 22 OR value is greater than 33)
+!range(22,33) (value less or equal 22 OR value is greater or equal 33)
+</pre>    
+    </td>
+  </tr>
+  <tr>
+    <td>array</td>
+    <td>contains=, doesNotContain=aaa</td>
+    <td>any value that is defined for the field being compared</td>
+    <td></td>
+  </tr>
+</table>
+
+:::caution
+
+Date comparisons are yet to be implemented
+
+:::
