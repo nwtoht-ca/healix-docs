@@ -28,3 +28,8 @@ In order to expand the flexibility of the rules editor, we plan to allow [Healix
 #### Rules Action Audit and Debugger
 
 Each event and corresponding action that the rules engine executes is stored.  We will expose this to administrators and content managers for additional transparency and debugging capability.
+
+### Units of Measure
+
+We plan to expand the concept of Unit of Measure used for charts.  This will allow the same Unit of Measure to be referenced by many form fields.  As well, we plan to leverage Units of Measure to provide charts and dashboards that aggregate multiple plans.
+
