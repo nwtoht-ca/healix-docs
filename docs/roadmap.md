@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Roadmap
+# Healix Roadmap
 
 ## Creating Templates
 ### Roles Improvements
@@ -32,4 +32,10 @@ Each event and corresponding action that the rules engine executes is stored.  W
 ### Units of Measure
 
 We plan to expand the concept of Unit of Measure used for charts.  This will allow the same Unit of Measure to be referenced by many form fields.  As well, we plan to leverage Units of Measure to provide charts and dashboards that aggregate multiple plans.
+
+### Test Automation Improvements
+
+* Complete additional test types (expressions, external notifications)
+* Improve documentation generation.  Each test case can generate a document describing the pathway case including screenshots.  This is useful for documenting the plan
+* Known-to-be-correct Screenshots can be compared to the plan being tested.  When a difference is spotted, users running the test can accept the new version or flag it is as a test failure
 
