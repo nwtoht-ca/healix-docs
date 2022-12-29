@@ -10,7 +10,7 @@ sidebar_position: 2
 
 **Assigned** - The Assigned attribute identifies if the form will be immediately assigned or if the form is assigned as a result of a rule firing.
 
-**Role** - This dropdown allows you to select one of the roles defined on the [Roles](/docs/creating-plans/roles/roles-list).
+**Role** - This dropdown allows you to select one of the roles defined on the [Roles](/docs/creating-plans/roles).
 
 **Task Card View** -  Sometimes it is desirable to edit how a task card is displayed on the task list for an end user.  By default the form name is used.  If other text is required, then a form view can be specified.
 

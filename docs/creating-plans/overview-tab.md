@@ -18,7 +18,7 @@ The overview tab contains basic information about the plan and lets you perform 
 
 **Description** - The description contains a paragraph or two that describes the purpose of the plan.  You are allowed to use basic formatting such as bolding, italics, indentation, etc.
 
-**Roles** - The roles *Edit* button allows you to define what participant types will be collaborating in the plan.  See [Roles](roles/roles-list) for more details.
+**Roles** - The roles *Edit* button allows you to define what participant types will be collaborating in the plan.  See [Roles](roles) for more details.
 
 **Import and Export** - These commands allows you to share your template with others or move it from one system to another.
 

@@ -14,4 +14,4 @@ Custom Fields are values that can be set by rules that you create in the rules e
 
 :::tip
 
-Values are added to a *Custom Field* by defining [Rules](../rules/intro)
+Values are added to a *Custom Field* by defining [Rules](../rules)
