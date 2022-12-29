@@ -18,7 +18,7 @@ sidebar_position: 2
 
 * By default, *No Criteria* is selected.  This means the task will show up immediately (unless limited by the frequency parameters below)
 * When *Field Equal to Value* is selected, two additional fields must be completed:
-  * The *While* field dropdown allows you to select a field from the [Dynamic Data Model](../../dynamic-data-model/data-model-intro)
+  * The *While* field dropdown allows you to select a field from the [Dynamic Data Model](../../dynamic-data-model)
   * The *Value to Compare* field allows you to enter a value. When the value of field specified in the *While* dropdown is equal to the value entered here, the task will be displayed
 * When *Field Not Equal to Values is selected, the behavior is the same as *Field Equal to Value* except, the condition for the task be displayed is when the value does equal the field
 * *Expression is True* allows you to enter and arbitrary boolean [expression](/docs/dynamic-data-model/expressions) using the *[Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar)*.
