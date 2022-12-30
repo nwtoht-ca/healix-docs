@@ -14,8 +14,8 @@ Operators are thing like plus ``` + ``` or minus ``` - ``` to perform operations
     <th>Comments</th>
   </tr>
   <tr>
-    <td>standard math operators</td>
     <td>+ - * /</td>
+    <td>standard math operators</td>
   </tr>
   <tr>
     <td>()</td>
@@ -63,8 +63,8 @@ Operators are thing like plus ``` + ``` or minus ``` - ``` to perform operations
     <td>Greater than, greater than or equal, less than, less than or equal</td>
   </tr>
     <tr>
-    <td>separators</td>
-    <td>commas , separate parameters to functions.  Some functions use braces {} to group data elements</td>
+    <td>, &#x7b; } </td>
+    <td>Separators. Commas , separate parameters to functions.  Some functions use braces &#x7b; } to group data elements</td>
   </tr>
 </table>
 
