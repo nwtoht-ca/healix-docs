@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Healiix Docs',
-  tagline: 'Healiix Documentation',
+  title: 'Healix Docs',
+  tagline: 'Healix Documentation',
   url: 'https://healix-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -35,7 +35,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/nwtoht-ca/healix-docs/tree/master/docs',
+            'https://github.com/nwtoht-ca/healix-docs/tree/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

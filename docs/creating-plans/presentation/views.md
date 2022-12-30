@@ -36,7 +36,7 @@ The *Add View* button creates a new view or you can click the *Edit* button to m
 
 When a view is computed it has access to certain data. Depending on the view type, some data will be available depending on this context.
 
-For example, if a submission is in context, the the Form View may pick up values from that form submission (using the submissionVal or submissionStr functions).
+For example, if a submission is in context, the Form View may pick up values from that form submission (using the submissionVal or submissionStr functions).
 
 If a submission is not in context (e.g. an *Assignment* view which is used on task cards), then attempting to access submission data (with submissionVal or submissionStr) will cause an error.
 

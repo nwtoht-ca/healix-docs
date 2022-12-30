@@ -39,3 +39,9 @@ We plan to expand the concept of Unit of Measure used for charts.  This will all
 * Improve documentation generation.  Each test case can generate a document describing the pathway case including screenshots.  This is useful for documenting the plan
 * Known-to-be-correct Screenshots can be compared to the plan being tested.  When a difference is spotted, users running the test can accept the new version or flag it is as a test failure
 
+## Dynamic Data Model
+
+### User attributes
+
+As well as accessing form and plan data, the data model will be extended to include accessing and creating user attributes.
+
