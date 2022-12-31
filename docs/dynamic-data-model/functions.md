@@ -8,6 +8,7 @@ This page provides details of all available functions.
 
 ## Functions by Type
 ### Data Access Functions
+[firstStr](#firststr), [firstVal](#firstval), [lastStr](#laststr), [lastVal](#lastval), [submissionStr](#submissionstr), [submissionVal](#submissionval)
 ### Date Functions
 [new Date](#date), [dateAdd](#dateadd), [dateFormat](#dateformat), [dateFormatDistance](#dateformatdistance), [dateSubtract](#datesubtract),  [differenceInDays](#differenceindays), [differenceInHours](#differenceinhours), [differenceInMinutes](#differenceinminutes), [now](#now)
 ### Math Functions 
