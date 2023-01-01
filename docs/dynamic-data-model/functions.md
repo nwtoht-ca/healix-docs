@@ -462,7 +462,7 @@ If the form was never submitted it returns [undefined](./operators)
 
 ### Str vs Val versions
 
-The difference between the *Str and *Val variations is the data type that is returned.  If *Str* is used, the value is ready to be displayed to a user and will attempt to format it with whatever metadata can be found.  In the future, this will pick up units labels and decimals defined by a Unit of Measure. So use *Str* versions when you want to display the value in a [view](/docs/creating-plans/presentation/views).
+The difference between the *Str and *Val variations is the data type that is returned.  If *Str* is used, the value is ready to be displayed to a user and the system will attempt to format it with whatever metadata can be found.  In the future, this will pick up units labels and decimals defined by a Unit of Measure. So use *Str* versions when you want to display the value in a [view](/docs/creating-plans/presentation/views).
 
 The *Val* version should be used if you wanted to interrogate the value.  For example if you wanted to use *min*, *max*, *&gt;* against the results.
 
