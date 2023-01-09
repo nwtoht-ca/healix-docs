@@ -1,46 +1,48 @@
-require("dotenv").config();
+require('dotenv').config();
 
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Healix Docs",
-  tagline: "Healix Documentation",
-  url: "https://healix-docs.netlify.app",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  title: 'Healix Docs',
+  tagline: 'Healix Documentation',
+  url: 'https://healix-docs.netlify.app',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "nwtoht", // Usually your GitHub org/user name.
-  projectName: "healix", // Usually your repo name.
+  organizationName: 'nwtoht', // Usually your GitHub org/user name.
+  projectName: 'healix', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve('./sidebars.js'),
           editUrl: (params) =>
-            `https://github.com/nwtoht-ca/healix-docs/tree/${process.env.BRANCH || 'master'}/${params.versionDocsDirPath}/${params.docPath}`,
+            `https://github.com/nwtoht-ca/healix-docs/tree/${
+              process.env.BRANCH || 'master'
+            }/${params.versionDocsDirPath}/${params.docPath}`,
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -50,22 +52,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Healix Documentation",
+        title: 'Healix Documentation',
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo192v0.png",
+          alt: 'My Site Logo',
+          src: 'img/logo192v0.png',
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Docs",
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Docs',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         // links: [
         //   {
         //     title: 'Docs',
