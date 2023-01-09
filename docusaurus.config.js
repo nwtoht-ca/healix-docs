@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
@@ -34,8 +36,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/nwtoht-ca/healix-docs/tree/master',
+          editUrl: (params) =>
+            `https://github.com/nwtoht-ca/healix-docs/tree/${
+              process.env.BRANCH || 'master'
+            }/${params.versionDocsDirPath}/${params.docPath}`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
