@@ -4,7 +4,7 @@ sidebar_position: 11
 
 # Verid
 
-## What is Verid
+## What is Verid?
 
 Verid is short for **VER**ified **ID**entification.
 
