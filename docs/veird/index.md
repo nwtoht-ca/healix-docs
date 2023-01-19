@@ -20,9 +20,9 @@ What are the problems that Verid solves?
 
 If you login into an application using your email address and password, all you have really done is proven that you control an account, and email address if you have verified it.  This is sufficient if we're only trying to protect information that you provide.  
 
-However, if the system wants to give you information from your healthcare record or open an financial account where there is KYC (Know Your Customer) regulator obligations, then we must know your real world identity with a high degree of confidence.
+However, if the system wants to give you information from your healthcare record or open an financial account where there is KYC (Know Your Customer) regulatory obligations, then we must know your real world identity with a high degree of confidence.
 
-Verid is a solution for obtaining users' real world identity.  There is no one best technique for doing this and Verid is designed to use the approaches that are best for each given situation.
+Verid is a solution for obtaining users' real world identities.  There is no one best technique for doing this and Verid is designed to use the approaches that are best for each given situation and be extensible and configurable to include new verification methods.
 
 ### The Many Overlapping Organization Problem
 
@@ -32,7 +32,7 @@ When I authenticate myself as a specific individual, the relationships I have wi
 
 Verid manages this graph of relationships.
 
-Furthermore, organizations should not need to "start from scratch" when identifying a person if another trusted organization has done the leg work.
+Furthermore, organizations should not need to "start from scratch" when identifying a person if another trusted organization has already done the leg work.
 
 ### The Authentication Problem
 
@@ -48,7 +48,7 @@ This is typically surfaced by adding an "I agree check box" to the sign in page.
 
 Verid allows administrators to edit the terms of service for their organizations.  It will prevent users from using the system if they have not consented.  Acts of consent are audited.  If the terms change where people must consent again, the system will present terms the next time they log in.
 
-While not a particularly "hard" problem to solve, from a micro service perspective it "belongs" to the sign in module.  From an Verid as a product perspective, it solves a boring problem so apps don't have to implement point solutions themselves.
+While not a particularly "hard" problem to solve, from a micro service perspective it "belongs" to the signin module.  From an Verid as a product perspective, it solves a boring problem so apps don't have to implement point solutions themselves.
 
 :::caution
 
@@ -87,11 +87,11 @@ Verid is a good place to manage this data about people and roles people are allo
 * Photo verification (future)
 * Login and consent audits
 
-## Benefits
+:::caution
 
-Reduce the cost of creating and administering:
-* collaborative systems in healthcare or any other industry that wants to build collaborative apps that involve patients or customers and require real world identity
-* collaborative system that cross organizational boundaries
+Many of the features above are coming soon and not currently available
+
+:::
 
 
 ## How does it Relate to Ontario’s Trusted Account
