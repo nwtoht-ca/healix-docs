@@ -8,3 +8,5 @@ formio.js
 truthy
 falsy
 passwordless
+Oauth2
+Userinfo
