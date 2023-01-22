@@ -6,11 +6,11 @@ sidebar_position: 2
 
 ![Lists](./img/form-assignment-editor.png)
 
-**Form to Assign** - The first attribute is to identify the form that shall be assigned.  The drop down gives you a list of forms.  Currently, the form referenced must be created in the Forms panel accessed from outside the template editor.  However, this will be changing shortly. See the [roadmap](/docs/roadmap#template-scoped-forms) for details.
+**Form to Assign** - The first attribute is to identify the form that shall be assigned.  The drop down gives you a list of forms.  Currently, the form referenced must be created in the Forms panel accessed from outside the template editor.  However, this will be changing shortly. See the [roadmap](/roadmap#template-scoped-forms) for details.
 
 **Assigned** - The Assigned attribute identifies if the form will be immediately assigned or if the form is assigned as a result of a rule firing.
 
-**Role** - This dropdown allows you to select one of the roles defined on the [Roles](/docs/creating-plans/roles).
+**Role** - This dropdown allows you to select one of the roles defined on the [Roles](/creating-plans/roles).
 
 **Task Card View** -  Sometimes it is desirable to edit how a task card is displayed on the task list for an end user.  By default the form name is used.  If other text is required, then a form view can be specified.
 
@@ -21,7 +21,7 @@ sidebar_position: 2
   * The *While* field dropdown allows you to select a field from the [Dynamic Data Model](../../dynamic-data-model)
   * The *Value to Compare* field allows you to enter a value. When the value of field specified in the *While* dropdown is equal to the value entered here, the task will be displayed
 * When *Field Not Equal to Values is selected, the behavior is the same as *Field Equal to Value* except, the condition for the task be displayed is when the value does equal the field
-* *Expression is True* allows you to enter and arbitrary boolean using the *[Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar)*.
+* *Expression is True* allows you to enter and arbitrary boolean using the *[Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar)*.
 
 **Consider not done upon care plan update** - This setting controls when a task re-appears. When set to true, changing the an attribute of the plan, such as the risk status, status, end date or any [Custom Field](./custom-fields) will cause the task to reappear if it was being suppressed due to it being already submitted.  For example, if the Frequency is set to *Once Only*, the task will not show after the user submits that form and *Consider not done upon care plan update* is off. However, if *Consider not done upon care plan update* is on, then a change to a plan attribute will cause the task to re-appear.
 
@@ -44,15 +44,15 @@ sidebar_position: 2
 * *Urgent* - When the task is assigned, the form is displayed in a way that takes over the application.  The form must be submitted by the user before any other actions are taken
 * Notes: In App notifications, delayed notifications and SMS are not yet implemented
 
-**Default Calculations** - An initial value can be computed to pre-fill a field with an [expression](/docs/dynamic-data-model/healix-calculation-grammar)
+**Default Calculations** - An initial value can be computed to pre-fill a field with an [expression](/dynamic-data-model/healix-calculation-grammar)
 
-When a form is prepared for the end user to complete, calculations are performed to compute pre-filled values.  Note that this is different from default values defined in the form editor because values can be computed from previous form submissions using the  [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar).
+When a form is prepared for the end user to complete, calculations are performed to compute pre-filled values.  Note that this is different from default values defined in the form editor because values can be computed from previous form submissions using the  [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar).
 
 When you click the *Default Calculations* button.  A list of calculations is displayed (if any).  You can add a new *Default Calculation* by clicking the *Add* button or editing an existing one by clicking on the row.
 
-When editing a calculation, you have a dropdown to select the field value being computed and the [expression](/docs/dynamic-data-model/healix-calculation-grammar) editor to compute the expression.
+When editing a calculation, you have a dropdown to select the field value being computed and the [expression](/dynamic-data-model/healix-calculation-grammar) editor to compute the expression.
 
-**Submission Acknowledgement** - This allows you to control if a [toast](/docs/glossary#toast) is displayed when a form is displayed and what the text is.
+**Submission Acknowledgement** - This allows you to control if a [toast](/glossary#toast) is displayed when a form is displayed and what the text is.
 
 **Submission Visibility** - This allows you to control who can see the related form submissions.  For example, if a user submits a form, it may be necessary to hide the form from other users.  When clicked, you can control the following settings:
 

@@ -26,7 +26,7 @@ For example, if a form submission is in context, the fields from the submitted f
 ```
 submissionVal("field1")
 ````
-returns the value of "field1", but this only works in contexts where the system knows which form you are referencing.  For example, defining a [View](/docs/creating-plans/presentation/views) for a submission.
+returns the value of "field1", but this only works in contexts where the system knows which form you are referencing.  For example, defining a [View](/creating-plans/presentation/views) for a submission.
 
 
 

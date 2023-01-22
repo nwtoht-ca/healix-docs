@@ -436,7 +436,7 @@ min(1,2,3)
 
 ## now
 
-Returns the current date.  It is sensitive to the [Simulator](/docs/creating-plans/simulator)'s *as at* feature so sometimes it will return the simulated date, not the actual date.
+Returns the current date.  It is sensitive to the [Simulator](/creating-plans/simulator)'s *as at* feature so sometimes it will return the simulated date, not the actual date.
 
 ### Syntax
 
@@ -462,7 +462,7 @@ If the form was never submitted it returns [undefined](./operators)
 
 ### Str vs Val versions
 
-The difference between the *Str and *Val variations is the data type that is returned.  If *Str* is used, the value is ready to be displayed to a user and the system will attempt to format it with whatever metadata can be found.  In the future, this will pick up units labels and decimals defined by a Unit of Measure. So use *Str* versions when you want to display the value in a [view](/docs/creating-plans/presentation/views).
+The difference between the *Str and *Val variations is the data type that is returned.  If *Str* is used, the value is ready to be displayed to a user and the system will attempt to format it with whatever metadata can be found.  In the future, this will pick up units labels and decimals defined by a Unit of Measure. So use *Str* versions when you want to display the value in a [view](/creating-plans/presentation/views).
 
 The *Val* version should be used if you wanted to interrogate the value.  For example if you wanted to use *min*, *max*, *&gt;* against the results.
 
@@ -515,7 +515,7 @@ lastStr("carePlan.status")
 ## submissionStr
 ## submissionVal
 
-submissionVal and submissionStr retrieve the submitted value of the specific [data reference](./referencing-data) for the form submission that is in [context](/docs/dynamic-data-model/healix-calculation-grammar#calculation-contexts).
+submissionVal and submissionStr retrieve the submitted value of the specific [data reference](./referencing-data) for the form submission that is in [context](/dynamic-data-model/healix-calculation-grammar#calculation-contexts).
 
 See [Str vs Val versions](#str-vs-val-versions)
 

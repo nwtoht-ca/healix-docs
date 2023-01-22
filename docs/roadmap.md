@@ -23,7 +23,7 @@ The current decision table offers the maximum flexibility to express any arbitra
 
 #### Calculated Columns
 
-In order to expand the flexibility of the rules editor, we plan to allow [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar) calculated columns to be added as column types.
+In order to expand the flexibility of the rules editor, we plan to allow [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar) calculated columns to be added as column types.
 
 #### Rules Action Audit and Debugger
 

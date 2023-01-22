@@ -66,7 +66,7 @@ A Manual Review Test pauses the execution of the automated test and displays the
 
 ### Logical Expression Test
 
-An arbitrary [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar) is evaluated.  If the expression is false, the test fails.  This is useful checking plan status or risk status.
+An arbitrary [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar) is evaluated.  If the expression is false, the test fails.  This is useful checking plan status or risk status.
 
 :::caution
 

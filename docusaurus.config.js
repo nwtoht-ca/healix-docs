@@ -35,6 +35,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: (params) =>
             `https://github.com/nwtoht-ca/healix-docs/tree/${
@@ -44,6 +45,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: false
       }),
     ],
   ],
@@ -57,14 +59,14 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo192v0.png',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-        ],
+        // items: [
+        //   {
+        //     type: 'doc',
+        //     docId: 'intro',
+        //     position: 'left',
+        //     label: 'Docs',
+        //   },
+        // ],
       },
       footer: {
         style: 'dark',

@@ -67,7 +67,7 @@ A Grid chart type is a simple table of numbers.  Configuring simple requires sel
 
 ## View
 
-A View allows you to specify a formatted text with data inserted by using [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar).  When defining a View chart type, just select the *View* defined in the [Views](./views) section.
+A View allows you to specify a formatted text with data inserted by using [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar).  When defining a View chart type, just select the *View* defined in the [Views](./views) section.
 
 ![View Chart Edit](img/view-chart-edit.png)
 
