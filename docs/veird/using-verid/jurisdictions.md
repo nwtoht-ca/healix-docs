@@ -4,8 +4,13 @@ sidebar_position: 4
 
 # Jurisdictions
 
-The main menu providers your top level navigation where you can access all of the primary Verid features.
+Jurisdictions are pseudo organizations for the purpose of managing a group of provider and app organizations.
 
-Note that apps, such as Healix, may use many of these features via the API and may look very different.
+Being an Admin [Role](./roles) of a Jurisdiction gives a person extra privileges:
 
-![Main Menu](./img/main-menu.png)
+* The ability to create new organizations
+* The ability to edit the global list of designations and id types
+
+Note that there is currently no expectation that there is a need for Staff or User [Roles](./roles) for jurisdictions.  This might be changed in the future.
+
+When a jurisdiction Admin user creates a new organization, they are automatically added as an Admin in the organization that is being created.  This gives them the privileges to add additional users to the newly created organization.  Being an Admin of a jurisdiction, does not grant any additional privileges to the organizations within that jurisdiction.
