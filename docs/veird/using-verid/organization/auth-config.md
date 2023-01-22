@@ -22,7 +22,7 @@ An organization may define many configuration methods and allows them to be asso
 When configuring local authentication (which is when Verid manages user authentication), provide the following settings:
 
 * **Auth Name** - the name that this authentication configuration will be referred to
-* **Role** - the [Role](./../roles) that this authentication method will authenticate
+* **Role** - the [Role](/veird/using-verid/people/roles) that this authentication method will authenticate
 * **Algorithm** - The algorithm a bit density of secrets generated to manage JWT tokens. Currently only HMAC is supported. RSA will be added in the future.
 * **Secret** - The secret used to generate and verify tokens.  To generate a new secret click the **Generate HMAC** button.  This secret will be saved when you click the **Update** button.  Note that for security reasons, the secret cannot be retrieved once it is saved.  When you generate a new secret you must record it if you need to access it later. (Normally you do not need this secret.)
 * **JWT Duration** - The number of seconds that the JWT is valid for.  (Typically around 10 minutes.) When the JWT expires, a new one is seamlessly and automatically generated using the a refresh token. 
@@ -36,7 +36,7 @@ When configuring local authentication (which is when Verid manages user authenti
 When configuring external authentication (when the system being integrated is doing the authentication), provide the following settings
 
 * **Auth Name** - the name that this authentication configuration will be referred to
-* **Role** - the [Role](./../roles) that this authentication method will authenticate
+* **Role** - the [Role](/veird/using-verid/people/roles) that this authentication method will authenticate
 * **Algorithm** - The algorithm a bit density of secrets generated to manage JWT tokens. Currently only HMAC is supported. RSA will be added in the future.  This must match the algorithm used by the external system* 
 * **Secret** - The secret used to generate and verify tokens. This must match the secret being used by the external system
 
@@ -47,7 +47,7 @@ When configuring external authentication (when the system being integrated is do
 When configuring open id, provide the following settings:
 
 * **Auth Name** - the name that this authentication configuration will be referred to
-* **Role** - the [Role](./../roles) that this authentication method will authenticate
+* **Role** - the [Role](/veird/using-verid/people/roles) that this authentication method will authenticate
 * **Client Id** - The Oauth2 __client_id__ that has been determined by the identity provider
 * **Client Secret** - The Oauth2 __client_secret__ that has been determined by the identity provider
 * **Authorization End Point** - The Full URL of the Oauth2 Authorize endpoint
