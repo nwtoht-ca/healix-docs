@@ -31,4 +31,4 @@ The test case can also be exported to a file.  To duplicate a test case and make
 * Create a new test case
 * Import the file created
 
-See the [Roadmap](/docs/roadmap#test-automation-improvements) for work-in-progress features
+See the [Roadmap](/roadmap#test-automation-improvements) for work-in-progress features

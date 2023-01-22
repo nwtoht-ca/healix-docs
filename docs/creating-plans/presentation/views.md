@@ -4,7 +4,7 @@ sidebar_position: 5
 
  # Views
 
-Views are formatted text (e.g. with bolding, italics etc) that can optionally insert values from the system.  These inserted values are created with the [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar).  Views can be used in a variety of places such as overriding the default task for submission cards.
+Views are formatted text (e.g. with bolding, italics etc) that can optionally insert values from the system.  These inserted values are created with the [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar).  Views can be used in a variety of places such as overriding the default task for submission cards.
 
 The Views section of the Presentation tab includes a list of views.
 
@@ -24,13 +24,13 @@ The *Add View* button creates a new view or you can click the *Edit* button to m
 
 * **Schedule** - Schedule views are used when displaying a schedule.  When a plan has schedule views defined, the Schedule tab will appear on the user's profile.
 * **Summary** - A general purpose form view
-* **Assignment** - Assignment views are used to override the text displayed on a [Task Card](/docs/glossary.md#task-card)
+* **Assignment** - Assignment views are used to override the text displayed on a [Task Card](/glossary.md#task-card)
 * **Gallery** - Views used in photo gallery
 * **Activity** - Used to display a form submission card (on the Activity Tab)
 
 **Form to View** - If the has a form in context (see below), then you may select which form is being viewed
 
-**Text Area** - The text area defines the actual view. Standard formatting tools can be used to format the text. In order to access the [Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar) to compute values, use the ${ to start an expression and } to complete the expression as shown above
+**Text Area** - The text area defines the actual view. Standard formatting tools can be used to format the text. In order to access the [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar) to compute values, use the ${ to start an expression and } to complete the expression as shown above
 
 ## View Contexts
 

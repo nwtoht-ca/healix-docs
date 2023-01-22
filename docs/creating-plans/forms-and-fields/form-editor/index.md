@@ -16,13 +16,13 @@ After you create or edit a form the Form Editor is displayed.
 
 **Type** - Types help categorize the form for easy searching.  Choose from *Form*, *Education* or *Tracker*.
 
-**Display Name** - The text that is displayed on default [Task Cards](/docs/glossary#task-card) and when the form appears on lists
+**Display Name** - The text that is displayed on default [Task Cards](/glossary#task-card) and when the form appears on lists
 
 **Display** - Choose *Form* for a standard form or *Wizard* for a form that is broken into pages
 
 **Referenced Forms** - Select forms that will be referenced.
 
-**Status** - IN_REVIEW status forms will only be used in the [Simulator](/docs/creating-plans/simulator/).  ACTIVE status will be used by real users.  As well as changing the status here, the status is also changed when a template that references the form is published (i.e. changing a templates status to ACTIVE also changes any referenced forms to ACTIVE)
+**Status** - IN_REVIEW status forms will only be used in the [Simulator](/creating-plans/simulator/).  ACTIVE status will be used by real users.  As well as changing the status here, the status is also changed when a template that references the form is published (i.e. changing a templates status to ACTIVE also changes any referenced forms to ACTIVE)
 
 **Auto Save** - If this is set to true, then each time the user leaves a field, the field is saved on the server.  This allows them to finish the form at a later time.
 

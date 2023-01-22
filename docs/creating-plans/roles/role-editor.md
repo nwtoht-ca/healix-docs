@@ -12,9 +12,9 @@ sidebar_position: 2
 
 **Description** - A paragraph that describes the role. It used when displaying the role to other participants or when learning about a plan.
 
-**Assignable User Types** - You have a choice of making the role assignable to one or more of ADMIN, STAFF, or USER types.  See [User Types](/docs/using-healix/user-types) for details on user types
+**Assignable User Types** - You have a choice of making the role assignable to one or more of ADMIN, STAFF, or USER types.  See [User Types](/using-healix/user-types) for details on user types
 
-**Visibility** - You can indicate if other participants in the plan can view the just the participant's first name name or the defaults for that user type.  By default, ADMIN and STAFF can see the full name and contact info, USERS can see full names, but not contact info.  See the [Roadmap](/docs/roadmap#role-visibility) for future plans.
+**Visibility** - You can indicate if other participants in the plan can view the just the participant's first name name or the defaults for that user type.  By default, ADMIN and STAFF can see the full name and contact info, USERS can see full names, but not contact info.  See the [Roadmap](/roadmap#role-visibility) for future plans.
 
 **Chat Settings** - Here you can determine if:
 

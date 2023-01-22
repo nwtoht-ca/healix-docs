@@ -16,7 +16,7 @@ To put a role into desktop mode, use the full screen icon in the upper right cor
 
 ## As At (Time Warp)
 
-By change the As At setting, the plan is run at the specified time.  For example, if form assignments have been configured to appear N days after the start or if you have configured [time elapsed](/docs/creating-plans/rules/when-to-evaluate) rules, then these conditions can be conveniently tested.
+By change the As At setting, the plan is run at the specified time.  For example, if form assignments have been configured to appear N days after the start or if you have configured [time elapsed](/creating-plans/rules/when-to-evaluate) rules, then these conditions can be conveniently tested.
 
 :::caution
 

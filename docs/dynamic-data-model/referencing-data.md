@@ -38,5 +38,5 @@ Or to read the status of a plan:
 carePlan.status
 ```
 
-These data references are used by by *[Healix Expression Grammar](/docs/dynamic-data-model/healix-calculation-grammar)* discussed next.
+These data references are used by by *[Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar)* discussed next.
 

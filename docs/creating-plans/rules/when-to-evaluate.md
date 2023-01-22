@@ -15,6 +15,6 @@ sidebar_position: 2
 
 **Unit of Time** - Enter the units of time specified above (Hours, Days, Weeks, Months)
 
-**Source Entity** - Select the [Entity](/docs/glossary#Entity) that be checked.
+**Source Entity** - Select the [Entity](/glossary#Entity) that be checked.
 
 **Field Name** - Select the field that will be checked.  Only Date Time fields are available.  When the duration specified above surpasses the value in this field, the rule will be triggered.
