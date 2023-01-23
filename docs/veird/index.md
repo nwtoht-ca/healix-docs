@@ -105,7 +105,7 @@ Many of the features above are coming soon and not currently available
   * https://www.biometricupdate.com/202109/ontario-plans-ssi-based-digital-id-by-fall-liquid-avatar-lauds-use-of-open-standards
   * https://www.ontario.ca/page/ontarios-digital-id-technology-and-standards 
 * Verid will interact with SSI and store its results for fast access. This follows the pattern of blockchain development tools such as https://moralis.io/ and https://thegraph.com/en/ .  In order for developers to avoid the complexity and latency of working directly with blockchains (or directly with wallets), information that is relevant to the application is stored in standard centralized databases
-* If a user creates an account on My Health Handle and then runs a Driver’s License verification using the Ontario credential issuer, we can store a verification event associated with the user in our database.
+* If a user creates an account on Verid and then runs a Driver’s License verification using the Ontario credential issuer, we can store a verification event associated with the user in our database.
 * SSI seems to have a lot of momentum and will soon be an everyday reality
 * Verid will make leveraging SSI fast and easy for developers
 

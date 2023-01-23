@@ -24,6 +24,13 @@ Verification ties an account to a real world human identity.  This typically hap
 
 Verifications can be created or edited.   Each verification has a name and a description.  The most important setting is Verification Type.
 
+:::note
+
+You must be an Admin of the organization in order to add verifications.
+
+:::
+
+
 ## Verification Types
 
 Verification Types are implemented by the system.  (Adding new verification types require changes to the system by developers.)
@@ -38,7 +45,7 @@ A _Self Declared_ verification type is where the end use simply provides the ide
 
 A _Personal Knowledge_ verification type is similar to a _Self Declared_ except that it is a _Staff_ Role that is asserting the persons identity. 
 
-## Manual
+### Manual
 
 A _Manual_ verification type, allows an _Admin_ to define a series of steps that a _Staff_ member must perform in order to verify a person's identity.
 
@@ -49,14 +56,24 @@ When configuring a _Manual_ verification, an editor where verification instructi
 One or more [Identification Types](../id-types) can also be specified.  For example, in Ontario, it is common for an OHIP card (Ontario Health Insurance Plan) to be used as a means of identifying one's self to receive healthcare services.  When a _Staff_ is performing a manual identity verification, they will be asked to provide the number (and expiry if configured) associated with the id.  (E.g. the person's drivers license number).
 
 
-## Open Id
+### Open Id
 
-Open Id is typically used as a form of authentication. For example, "Login with Facebook" or "Login in Google" use the Open Id standard to make it easier to sign up and sign in for web sites and apps that support it.
+Open Id is typically used as a form of authentication. For example, "Login with Facebook" or "Login in Google" uses the Open Id standard to make it easier to sign up and sign in for web sites and apps that support it.
 
 Open Id is also used to provide single sign on features.  For example, a staff member can use the login credentials of their work system to authenticate. Apps can "borrow" these credentials to avoid requiring the staff member to manage yet another password.
 
 Verid leverages the Open Id authentication standard as a form of identity verification.  For example, if a Staff member uses their organizational credentials to sign in, the organization's Open Id configuration sends Verid that user's name.  This is very powerful, because a Staff member typically goes through extensive verification as part of becoming an employee or contractor for the organization.  Verid can leverage this work, by configuring a verification method to point at an Open Id configuration.
 
+### Self Sovereign Identity
 
+Self-sovereign identity (SSI) is an approach to digital identity that gives individuals control over the information they use to prove who they are.
 
+The Ontario Government (as one of many examples) is starting to leverage SSI
+https://www.biometricupdate.com/202109/ontario-plans-ssi-based-digital-id-by-fall-liquid-avatar-lauds-use-of-open-standards
+https://www.ontario.ca/page/ontarios-digital-id-technology-and-standards
 
+:::warning
+
+Support for SSI is still in development.
+
+:::
