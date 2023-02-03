@@ -72,7 +72,7 @@ The Ontario Government (as one of many examples) is starting to leverage SSI
 https://www.biometricupdate.com/202109/ontario-plans-ssi-based-digital-id-by-fall-liquid-avatar-lauds-use-of-open-standards
 https://www.ontario.ca/page/ontarios-digital-id-technology-and-standards
 
-:::warning
+:::caution
 
 Support for SSI is still in development.
 
