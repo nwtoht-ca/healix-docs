@@ -10,5 +10,4 @@ sidebar_position: 1
 * The Dashboard tab provides visual information on your progress
 * The Activity tab is where you can see a feed of recent events related to plans
 * The Library tab has educational matieral about your current plans and lets you discover new plans to join
-
-The message icon in the upper right lets you chat with other users.
+* The message icon in the upper right lets you chat with other users.
