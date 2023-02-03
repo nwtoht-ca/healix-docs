@@ -4,19 +4,19 @@ sidebar_position: 2
 
 # Types of Users in Healix
 
-## Content Manager
+## [Content Manager](#)
 
 Citizen developers that create or modify plans. 
 
-## Administrator
+## [Administrator](#)
 
 Staff members of an organization with elevated privileges to control users and plans
 
-## Staff
+## [Staff](#)
 
 Staff members, also known as providers, of an organization. 
 
-## End User
+## [End User](#)
 
 People, typically patients, that use the system to manage their healthcare goals
 

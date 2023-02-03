@@ -16,7 +16,7 @@ When viewing a list of people, it is a list of people who have a relationship wi
 
 Verid tracks three distinct entities to manage this:
 
-* **Organizations** 
+1.  **Organizations** 
 * **People** - there should only be one of these per real person
 * **PersonOrg** - Think of this like an _Account_.  There is a PersonOrg record when a person has a relationship with an organization.  This is where the person's role is defined.  So, any person might be a User role in one organization, a Staff role at a different organization and an Admin in a third organization, etc.
 
