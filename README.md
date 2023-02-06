@@ -5,6 +5,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Environment Set Up
 
 * Install nvm and npm (https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+  * NB This requires XCode CLI tools to be installed. Non-devs, go to https://nodejs.org/en/download/, download and launch the installer for your computer  
 * Install git (might be on Mac already)
 * Install Visual Studio Code
 * Must have a github account and SSH key
