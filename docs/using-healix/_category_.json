@@ -1,7 +1,8 @@
----
-sidebar_position: 3
----
-
-# Using Healix
-
-A basic walkthough of Healix from an End User perspective. 
+{
+  "label": "Using Healix",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A basic walkthough of Healix from an End User perspective."
+  }
+}
