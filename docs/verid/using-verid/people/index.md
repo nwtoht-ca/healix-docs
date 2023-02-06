@@ -36,8 +36,8 @@ If the person is not found, then click **Add Person**.
 
 ![Person Add Dialog](img/person-add-dialog.png)
 
-* **Verification** - Any time you add or update a persons identity, it requires that you specify how the identity has been verified.  For more information, see [Verifications](/veird/using-verid/verifications/).
-* **Role** - Specify the user's [Role](/veird/using-verid/people/roles)
+* **Verification** - Any time you add or update a persons identity, it requires that you specify how the identity has been verified.  For more information, see [Verifications](/verid/using-verid/verifications/).
+* **Role** - Specify the user's [Role](/verid/using-verid/people/roles)
 * **Email and Password** - Assign a user and password if you like.  You may leave this blank.
 * **System Account** - Check this box if the account is for the purpose of generating an API Key and is not associated with a real person
 
@@ -49,7 +49,7 @@ To modify a person, click on the **Open** button on the person list.
 
 To modify a person's identity, click the **Edit** button.
 
-As with adding a person,  you must specify how the identity has been verified.  For more information, see [Verifications](/veird/using-verid/verifications/).
+As with adding a person,  you must specify how the identity has been verified.  For more information, see [Verifications](/verid/using-verid/verifications/).
 
 The complete history of all identity changes is tracked.  To view the identity change history and the related verifications, click the *History** button.
 
