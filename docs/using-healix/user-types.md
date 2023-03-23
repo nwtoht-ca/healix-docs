@@ -1,16 +1,16 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Types of Users in Healix
 
 ## [Content Manager](#)
 
-Citizen developers that create or modify plans. 
+Citizen developers that create or modify plans.  Users with permissions to author plans can navigate to the Plan Template editor.  See [Creating Plans](/creating-plans) for more details.
 
 ## [Administrator](#)
 
-Staff members of an organization with elevated privileges to control users and plans
+Staff members of an organization with elevated privileges to control users and plans.  See [Administration](/admin) for more details.
 
 ## [Staff](#)
 
