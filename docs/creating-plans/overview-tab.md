@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ![Overview](./img/overview.png)
 
-The overview tab contains basic information about the plan and lets you perform basic operations such as importing and exporting templates.
+The overview tab contains basic information about the plan and lets you perform operations such as importing and exporting templates.
 
 **Status** - If the status is *Active*, then the template is available to be used by administrators and end users. If the status is *In Review* then it is being edited and reviewed by content managers and can only be accessed with the [Simulator](simulator).  When you change the status from *In Review* to *Active* all related forms are also published.  When you edit an *Active* template, a new version number will be automatically created.
 
