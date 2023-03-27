@@ -6,25 +6,56 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #00539D;
+  --ifm-color-primary-dark: #004a8c;
+  --ifm-color-primary-darker: #003f79;
+  --ifm-color-primary-darkest: #00254b;
+  --ifm-color-primary-light: #0064bb;
+  --ifm-color-primary-lighter: #0071d0;
+  --ifm-color-primary-lightest: #0382ec;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Poppins';
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #3d6d9d;
+  --ifm-color-primary-dark: #3670a2;
+  --ifm-color-primary-darker: #2a70a6;
+  --ifm-color-primary-darkest: #1c6aa9;
+  --ifm-color-primary-light: #476e9a;
+  --ifm-color-primary-lighter: #55739d;
+  --ifm-color-primary-lightest: #6d8fbb;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"), url("/static/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"), url("/static/fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PoppinsLight";
+  src: local("PoppinsLight"), url("/static/fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PoppinsItalic";
+  src: local("PoppinsItalic"), url("/static/fonts/Poppins-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "PoppinsMedium";
+  src: local("PoppinsMedium"), url("/static/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: local("PoppinsSemiBold"), url("/static/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: normal;
 }
