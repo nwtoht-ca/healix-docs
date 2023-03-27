@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import img from './img/user-search.png'
+
 # Assign Roles
 
 The third step of the add person wizard, or the response to the Edit Roles button from a user's profile page displays the Role Assignment editor.
@@ -20,4 +22,4 @@ In order to be assigned to the role, the person must already have an account on 
 
 To find a user for a role, enter a few letters of their first or last name and select search and then select the user you are looking for.
 
-![Search](img/user-search.png)
+<img src={img} style={{width: 400}}/>

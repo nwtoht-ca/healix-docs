@@ -27,5 +27,5 @@ Actions that can be performed include:
   * Will still appear in the plans list (with a Closed tag)
   * Educational material assigned by the closed plan will still be available in the library
 
-
+* **Edit Riles**: The Edit Roles command (available from the ellipse menu) brings up the [Assign Roles](./assign-roles) dialog.
 
