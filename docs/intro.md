@@ -3,12 +3,13 @@ sidebar_position: 1
 slug: /
 ---
 
+import img from './img/intro.webp';
+
 # Healix Introduction
 
 Healix makes it easy for patients and their constellation of care to stay connected, share and receive important health information in real-time, from anywhere, 24/7.
 
-
-![intro](./img/intro.webp)
+<img src={img} style={{width: 500}}/>
 
 * Citizen developers create healthcare apps called "Plans"
 * The Healix Digital Health Platform manages all the engineering challenges of deploying and running these apps

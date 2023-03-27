@@ -50,12 +50,6 @@ Verid allows administrators to edit the terms of service for their organizations
 
 While not a particularly "hard" problem to solve, from a micro service perspective it "belongs" to the signin module.  From an Verid as a product perspective, it solves a boring problem so apps don't have to implement point solutions themselves.
 
-:::caution
-
-Consent is not implemented yet
-
-:::
-
 ### Teams and Designations
 
 Verid also allows team structures to be defined.  Professional designations, such as "Physiotherapist" "Nurse Practitioner", "Lawyer", "Real Estate Agent" or personal designations "Approved Volunteer", "Palliative Patient" can also be tracked.
