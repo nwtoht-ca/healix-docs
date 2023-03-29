@@ -81,7 +81,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Humber River Hospital.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Healix.`,
       },
       prism: {
         theme: lightCodeTheme,
