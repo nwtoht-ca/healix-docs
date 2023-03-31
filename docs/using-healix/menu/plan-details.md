@@ -6,9 +6,9 @@ sidebar_position: 2
 
 Under the details page for a plan, you will find 3 tabs:
 
-**About**: a quick rundown or description of the plan.
-**Key Dates**: the date that you started and finished (if applicable) a plan.
-**Participants**: a list of people connected to you in this plan.
+* **About**: a quick rundown or description of the plan.
+* **Key Dates**: the date that you started and finished (if applicable) a plan.
+* **Participants**: a list of people connected to you in this plan.
 
  
 

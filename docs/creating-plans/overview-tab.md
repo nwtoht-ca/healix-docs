@@ -24,6 +24,11 @@ The overview tab contains basic information about the plan and lets you perform 
 
 **View Data Model** - This button displays a list of all the data points that where created by the forms fields and custom fields defined in the plan template.  This is useful if you need to reference a data point.  To learn more about the Data Model see the [Dynamic Data Model](../dynamic-data-model).
 
+## Style Guidelines
+
+In order to appear consistent with other parts of the system, use the following styles:
+
+* Description: **Normal** (in the style dropdown)
 
 
 
