@@ -17,3 +17,10 @@ For example:
 ![Disclaimer User](img/chat-disclaimer-user.png)
 
 Note that the user has the ability to prevent the disclaimer from being shown a second time.
+
+## Typography Guidelines
+
+In order to appear consistent with the rest of the app, the following styles are recommended:
+
+* Disclaimer Title: **Heading 5** (in style dropdown)
+* Disclaimer Details/body: **Normal**

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ![Overview](./img/overview.png)
 
-The overview tab contains basic information about the plan and lets you perform basic operations such as importing and exporting templates.
+The overview tab contains basic information about the plan and lets you perform operations such as importing and exporting templates.
 
 **Status** - If the status is *Active*, then the template is available to be used by administrators and end users. If the status is *In Review* then it is being edited and reviewed by content managers and can only be accessed with the [Simulator](simulator).  When you change the status from *In Review* to *Active* all related forms are also published.  When you edit an *Active* template, a new version number will be automatically created.
 
@@ -24,6 +24,11 @@ The overview tab contains basic information about the plan and lets you perform 
 
 **View Data Model** - This button displays a list of all the data points that where created by the forms fields and custom fields defined in the plan template.  This is useful if you need to reference a data point.  To learn more about the Data Model see the [Dynamic Data Model](../dynamic-data-model).
 
+## Style Guidelines
+
+In order to appear consistent with other parts of the system, use the following styles:
+
+* Description: **Normal** (in the style dropdown)
 
 
 

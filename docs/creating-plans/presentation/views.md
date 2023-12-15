@@ -51,3 +51,14 @@ The following view types do not have a form submission in context:
 * Assignment
 * Summary
 
+# Typography Guidelines
+
+In order for forms to be consistent, use the following styling:
+
+* Task Title: **Heading 5** (in the style dropdown)
+* Task Instruction **Normal**
+* Activity Title: **Heading 5**
+* Activity Text:  **Normal**
+* Schedule Title: **Heading 5**
+* Schedule Text:  **Normal**
+
