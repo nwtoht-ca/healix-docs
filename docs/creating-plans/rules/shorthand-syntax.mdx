@@ -41,21 +41,15 @@ You may enter
   </tr>
   <tr>
     <td>text</td>
-    <td>equal, =, eq, notEq, !=, notEqual, in, notIn, contains=, doesNotContain=</td>
+    <td>=, !=, in, notIn</td>
     <td>any</td>
     <td style={{wordWrap: "break-word", width: "40vw"}}>Generally rules referencing text fields are highly discouraged because users can enter anything. Use a choice, boolean or number instead. Examples:
 <pre>
 
 =someText
-someText (simply type text to compare its equality)
-eq someText (a variation of =)
 !=someText 
-notEq someText (a variation of !=)
-notEqual someText (a variation of !=)
 in[1,2,3,4] (a value should be found in array)
 notIn[1,2,3,4] (a value should not be found in array)
-contains=aaa (value aaa contains in array of strings [aaa, bob, ccc])
-doesNotContain=aaa (value aaa is not in array of strings [bob, ccc, ddd])
 </pre>
     </td>
   </tr>
@@ -97,14 +91,20 @@ range[22,33] (value less than 22 OR value is greater than 33)
   </tr>
   <tr>
     <td>array</td>
-    <td>contains=, doesNotContain=aaa</td>
+    <td>in=, notIn=aaa</td>
     <td>any value that is defined for the field being compared</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>any</td>
+    <td>null</td>
+    <td>there is no value</td>
     <td></td>
   </tr>
 </table>
 
 :::caution
 
-Date comparisons are not support.  Support for dates will be added by adding Expression column types. Thus you can compute the difference between two dates in a column to compute a duration and then use the number operator.
+Date comparisons are not supported.  Support for dates will be added by adding Expression column types. Thus you can compute the difference between two dates in a column to compute a duration and then use the number operator.
 
 :::
