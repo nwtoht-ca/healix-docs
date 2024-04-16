@@ -8,7 +8,9 @@ Templates define all the screens, rules and presentations that make up a plan.  
 
 ![Home](./img/home.png)
 
-Add a new template, by clicking the floating + at the bottom right
+To navigate to a list of templates, choose the menu at the upper left of the screen, and select Plan Templates.
+
+Then, to add a new template, by clicking the floating + at the bottom right
 
 ![Templates List](./img/list-of-plan-templates.png)
 

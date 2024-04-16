@@ -10,7 +10,7 @@ import img5 from './img/reorder-pages.png';
 
 # Form Editor
 
-Creating forms is done at the top level.  Note that soon creating forms will be integrated into the Plan Template editor.
+To creating a form, go to the Forms and Fields tab of a plan template.  (Note, previously forms were created as top level objects and they have moved to be local to a plan.)
 
 **[form.io](https://form.io)** Editing and Displaying forms is done by using  source components [formio.js](https://github.com/formio/formio.js).  Healix wraps the core form feature and customizes it by adding new components and features.
 
