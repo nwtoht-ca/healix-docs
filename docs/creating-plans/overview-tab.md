@@ -10,7 +10,11 @@ The overview tab contains basic information about the plan and lets you perform 
 
 **Status** - If the status is *Active*, then the template is available to be used by administrators and end users. If the status is *In Review* then it is being edited and reviewed by content managers and can only be accessed with the [Simulator](simulator).  When you change the status from *In Review* to *Active* all related forms are also published.  When you edit an *Active* template, a new version number will be automatically created.
 
-**Availability** - If the availability is *Admin*, an administrator must invite end users to participate in a plan.  If the availability is *Unverified*, then any user, even if the system is unsure of their name is able to self sign up and use the plan.
+**Availability** - The availability types are *Admin*, *Unverified* or *Single-Use*
+
+* *Admin* - If the availability is *Admin*, an administrator must invite end users to participate in a plan.  
+* *Unverified* - If the availability is *Unverified*, then any user, even if the system is unsure of their name is able to self sign up and use the plan.
+* *Single-Use* - If the availability is *Single-Use*, then unverified users may also use the plan without signing up for an account. A temporary account is automatically created and archived after a period of non use.
 
 **Title** - The name of the plan template to show to users
 

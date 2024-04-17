@@ -13,12 +13,8 @@ The Action column defines what happens when the rule triggers.  When the action 
 
 ![Action - Add Data Point](img/action-data-point.png)
 
- * Set - You may select any field that at the plan level that you are allowed to compute or any [Custom Field](/creating-plans/forms-and-fields/custom-fields) that you have defined.  You may set the following predefined fields
-   * Status - This can only be set to OPEN or CLOSED
-   * Risk Status
-   * End Date
-   * Start Date
- * Expression - Enter a [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar) for the computed value.  This can be as simple as a value.  Numbers and booleans do not need quotes.  Text strings do.
+ * Set - You may select any writeable field in the [dynamic data model](../../dynamic-data-model/referencing-data.md) or any [Custom Field](/creating-plans/forms-and-fields/custom-fields) that you have defined.  
+ * Expression - Enter a [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar) for the computed value.  This can be as simple as a value.  Numbers and booleans do not need quotes.  Text strings do need quotes.
 
 
 

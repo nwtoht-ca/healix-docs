@@ -12,3 +12,4 @@ Home is where you will find your To Do list and see key information to help you 
 
 ![Home](img/home.png)
 
+If you are staff, then you may also have [work queue](../work-queues/using-work-queues) tasks in your task list.
