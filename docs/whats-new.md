@@ -23,4 +23,4 @@ As of May 2024, the following major features are available:
 * [Secure Landing Pages](./admin/plan-locking)
 * [Adding to a Work Queue](./work-queues/adding-to-a-work-queue)
 * [Integration Configuration](./admin/configuring-integrations)
-* Export Plan
+* [Export Plan](./admin/export-plan)
