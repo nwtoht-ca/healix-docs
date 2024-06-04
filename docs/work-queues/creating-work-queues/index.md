@@ -12,4 +12,4 @@ A list of work queues is displayed and you can create a new work queue with the 
 
 ![List](./img/work-queue-list.png)
 
-Creating or clicking on a work queue, brings up the work queue item editor.
+Creating or clicking on a work queue, brings up the work queue editor.
