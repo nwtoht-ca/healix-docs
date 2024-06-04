@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## [Content Manager](#)
 
-Citizen developers that create or modify plans.  Users with permissions to author plans can navigate to the Plan Template editor.  See [Creating Plans](/creating-plans) for more details.
+Citizen developers that create or modify plans.  Users with permissions to author plans can navigate to the Plan Template editor.  See [Creating Plans](/creating-plans) for more details. Technically, an administrator and content manager have the same permissions.
 
 ## [Administrator](#)
 

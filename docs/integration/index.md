@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Integration
@@ -79,7 +79,7 @@ Please contact support@healix.me.  In the future this process will be automated 
 
 ## Configuring Web Hooks and HTTP Post
 
-As an alternative to working with the pub/sub mechanisms provided by NATS, you can configure a URL and filter criteria so that a system message is converted to an HTTP post.  (Admin UI Coming Soon.)
+As an alternative to working with the pub/sub mechanisms provided by NATS, you can configure a URL and filter criteria so that a system message is converted to an HTTP post.  See [Configuring HTTP Integrations](../admin/configuring-integrations)
 
 
 
