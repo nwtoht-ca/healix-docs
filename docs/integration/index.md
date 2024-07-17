@@ -11,6 +11,7 @@ Healix integrates with other systems through a classic enterprise bus, pub/sub d
 * System level events are published by Healix to the bus.  These system events include when a plan is assigned to a person, when a person submits a form or when a work queue item's status is changed.
 * Third parties can work directly with the Healix NATS bus or or exchange information via a REST API / WebHook.
 * The Plan Template Editor, is used to configure how to respond to inbound messages
+* If multiple inbound messages with the same data are received, Healix will only process the first message.
 
 ## Configuring Healix to Respond to Incoming Events
 
