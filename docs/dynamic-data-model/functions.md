@@ -448,7 +448,7 @@ now()
 
 firstVal and firstStr retrieve the first submitted value of the specific [data reference](./referencing-data).
 
-Note for the carePlan entity, there is no difference between firstVal and lastVal since there is only one instance of a plan.
+Note for the plan entity, there is no difference between firstVal and lastVal since there is only one instance of a plan.
 
 If the form was never submitted it returns [undefined](./operators)
 
@@ -472,7 +472,7 @@ firstStr("submission.form1.field1")
 firstVal("submission.form1.field1")
 // Returns the value of field1 in form1 the first time it was submitted
 
-firstStr("carePlan.status")
+firstStr("plan.status")
 // Returns the plan status
 ```
 
@@ -481,7 +481,7 @@ firstStr("carePlan.status")
 
 lastVal and lastStr retrieve the latest submitted value of the specific [data reference](./referencing-data).
 
-Note for the carePlan entity, there is no difference between firstVal and lastVal since there is only one instance of a plan.
+Note for the plan entity, there is no difference between firstVal and lastVal since there is only one instance of a plan.
 
 If the form was never submitted it returns [undefined](./operators)
 
@@ -501,7 +501,7 @@ lastStr("submission.form1.field1")
 lastVal("submission.form1.field1")
 // Returns the value of field1 in form1 the last time it was submitted
 
-lastStr("carePlan.status")
+lastStr("plan.status")
 // Returns the plan status
 ```
 ## submissionStr

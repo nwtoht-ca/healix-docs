@@ -21,6 +21,12 @@ When you select a work queue item, the right hand panel allows you to change the
 
 Use the drop down to change the work queue item status.  The *Save* button saves changes your changes but keeps the record open and locked.  The *Save and Close* button saves your changes, releases the lock and returns you to the list.  To close and release the work queue item without saving, click the ✕ button.
 
+### Selecting a Service Location
+
+If the status has been associated with a service location, a drop down appears beside the status drop down allowing you to select the service location.
+
+![Select Service Location](./img/select-service-location.png)
+
 ## Work Queue Item Locking
 
 Note the Lock icon appears when you have selected a work queue item.  This icon also appears on other users screen to show that the item is being worked on by someone else and it prevents them from changing it.

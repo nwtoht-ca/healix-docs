@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # Glossary
@@ -10,7 +10,7 @@ The fields, categories and entities created by defining a plan template.
 
 #### Entity
 
-A top level object in the dynamic data model.  Supported objects are carePlan (soon to be renamed "plan") and submissions (data from submitted forms)
+A top level object in the dynamic data model.  Supported objects are plan, submissions (data from submitted forms), workQueueItem (a task), integration and user.
 
 ##### Form Assignment (Task)
 

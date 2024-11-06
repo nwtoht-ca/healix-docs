@@ -17,5 +17,14 @@ The Action column defines what happens when the rule triggers.  When the action 
  * Expression - Enter a [Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar) for the computed value.  This can be as simple as a value.  Numbers and booleans do not need quotes.  Text strings do need quotes.
 
 
+**User Action** - When *User Action* is selected, you must select the action to be taken. 
+![Action - User Action](img/action-user-action.png)
+
+ The available actions are:
+
+* Logout - Logs out the user and ends their session.
+* (More coming soon)
+
+When *Logout* is selected, the user role that is to be logged out must be selected.  The user role must have been previously defined in the [User Roles](../../using-healix/user-roles.md) section.
 
 
