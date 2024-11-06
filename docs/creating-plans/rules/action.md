@@ -25,6 +25,6 @@ The Action column defines what happens when the rule triggers.  When the action 
 * Logout - Logs out the user and ends their session.
 * (More coming soon)
 
-When *Logout* is selected, the user role that is to be logged out must be selected.  The user role must have been previously defined in the [User Roles](../../using-healix/user-roles.md) section.
+When *Logout* is selected, the user role that is to be logged out must be selected.  The user role must have been previously defined in the [Roles](../roles/) section.
 
 
