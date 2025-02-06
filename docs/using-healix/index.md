@@ -2,11 +2,13 @@
 sidebar_position: 2
 ---
 
+import img from './img/user-screen.png';
+
 # Using Healix
 
 After creating and an account and logging in to Healix, the home screen is displayed.
 
-![Main User Screen](./img/user-screen.png)
+<img src={img} style={{width: 500}}/>
 
 * The Home tab is where you see the your tasks for your own plans or tasks for plans for others
 * The Dashboard tab provides visual information on your progress

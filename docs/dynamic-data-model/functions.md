@@ -39,25 +39,17 @@ If any parameter overflows its defined bounds, it "carries over". For example, i
 
 Similarly, if any parameter underflows, it "borrows" from the higher positions. For example, new Date(2020, 5, 0) will return May 31st, 2020.
 
-year
-Integer value representing the year. Values from 0 to 99 map to the years 1900 to 1999. All other values are the actual year. See the example.
-
-monthIndex
-Integer value representing the month, beginning with 0 for January to 11 for December.
-
-day Optional
+* **year**: Integer value representing the year. Values from 0 to 99 map to the years 1900 to 1999. All other values are the actual year. See the example.
+* **monthIndex**: Integer value representing the month, beginning with 0 for January to 11 for December.
+* **day**: Optional
 Integer value representing the day of the month. The default is 1.
-
-hours Optional
+* **hours**: Optional
 Integer value between 0 and 23 representing the hour of the day. Defaults to 0.
-
-minutes Optional
+* **minutes**: Optional
 Integer value representing the minute segment of a time. The default is 0 minutes past the hour.
-
-seconds Optional
+* **seconds**: Optional
 Integer value representing the second segment of a time. The default is 0 seconds past the minute.
-
-milliseconds Optional
+* **milliseconds**: Optional
 Integer value representing the millisecond segment of a time. The default is 0 milliseconds past the second.
 
 ### Examples
