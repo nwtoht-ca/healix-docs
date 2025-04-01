@@ -31,5 +31,4 @@ var otherKey = 'phone';
 var thisValue = data[component.key];
 var otherValue = data[otherKey];
 valid = thisValue || otherValue ? true : 'errorMsg';
-
-
+`````
