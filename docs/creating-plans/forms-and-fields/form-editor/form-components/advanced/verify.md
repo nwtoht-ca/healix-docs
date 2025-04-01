@@ -19,11 +19,11 @@ In the case where the user must submit a contact requires some special handling.
 - **Neither is required**: Nothing special — Leave "Required" unchecked in both components.
 - **Both are required**: Nothing special — Select "Required" in both components.
 - **Only One Required**: when user must submit only one of the two types…
-  - Leave "Required" unchecked in both components.
+  - Leave "Required" _unchecked_ in both components.
   - Copy and past the following code into "Custom Validation", making this change:
     - set `otherKey` to the API key of the other component — _important!_
     - `errorMsg` never appears b/c usual validation is done by the component, but a string value is required by FormIO.
-    - in other words, the only thing the CM should change is `'phone'`.
+    - in other words, the only thing the CM should touch is `'phone'`.
 
 `````
 var otherKey = 'phone';
