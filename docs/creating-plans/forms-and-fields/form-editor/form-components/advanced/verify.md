@@ -10,7 +10,7 @@ Some display options are relevant dependong on the type of verification selected
 #### Email
 "Input Mask" and "Input Mask Placeholder" are ignored.
 #### Phone
-"Input Mask" and "Input Mask Placeholder" should be used to format (and validate) the phone number, but the CM can use these to determine the input value.
+"Input Mask" and "Input Mask Placeholder" have default values, but can be overridden by the CM if desired.
 ### Validation
 Validation of the phone number or email address is done by the component to ensure that the user can only send valid input (it is of course up 
 to the user to input their own email or phone). Generally, the only validation option that CMs will use is the "Required" option.
