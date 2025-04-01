@@ -20,15 +20,16 @@ In the case where the user must submit a contact requires some special handling.
 - **Both are required**: Nothing special — Select "Required" in both components.
 - **Only One Required**: when user must submit only one of the two types…
   - Leave "Required" unchecked in both components.
-  - Copy and past the following code into "Custom Validation", making these changes:
+  - Copy and past the following code into "Custom Validation", making this change:
     - set `otherKey` to the API key of the other component — _important!_
-    - set `errorMsg` to the error message you want to display if both fields are empty
+    - `errorMsg` never appears b/c usual validation is done by the component, but a string value is required by FormIO.
+    - in other words, the only thing the CM should change is `'phone'`.
 
 `````
 var otherKey = 'phone';
-var errorMsg = 'Please enter a valid value (phone)'
+
 var thisValue = data[component.key];
 var otherValue = data[otherKey];
-valid = thisValue || otherValue ? true : errorMsg;
+valid = thisValue || otherValue ? true : 'errorMsg';
 
 
