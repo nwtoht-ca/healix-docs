@@ -13,23 +13,27 @@ entity.category.field
 ## Entities
 Entity is the highest level of categorization for data. Two entities currently exist
 
-* **submission** - any form or rule derived data
-* **plan** - fixed plan attributes (e.g. start date) and calculated columns
 * **integration** - any incoming payload that a plan has been configured to receive
+* **plan** - fixed plan attributes (e.g. start date) and calculated columns
+* **submission** - any form or rule derived data
+* **user** - user profile data
 * **workQueueItem** - fixed work queue item attributes
 
 ## Categories
 
 Some entities must define a second level:
 
-* *submission*, category is the form name
 * *integration*, category is the subject (a.k.a topic) name
-* *workQueueItem*, category is the work queue name
 * *plan*, there is no category and the reference requires only two levels
+* *submission*, category is the form name
+* *user*, category is the user's role as defined in the plan
+* *workQueueItem*, category is the work queue name
 
 ## Fields 
 
-A field is defined by a name and type information
+A field is defined by a name and type category.
+
+Usually fields are dynamically defined based on the configuration of the form, plan, and integration.
 
 ## Examples
 
@@ -42,7 +46,7 @@ submission.form1.field1
 Or to read the status of a plan:
 
 ```
-carePlan.status
+plan.status
 ```
 
 These data references are used by by *[Healix Expression Grammar](/dynamic-data-model/healix-calculation-grammar)* discussed next.
@@ -58,6 +62,9 @@ The following fixed attributes are available
         Entity
       </td>
       <td>
+        Category
+      </td>
+      <td>
         Field
       </td>
       <td>
@@ -71,7 +78,41 @@ The following fixed attributes are available
   <tbody>
     <tr>
       <td>
+        integration
+      </td>
+      <td>
+        $subject
+      </td>
+      <td>
+        _submitted
+      </td>
+      <td>
+      </td>
+      <td>
+        read only
+      </td>
+    </tr>
+    <tr>
+      <td>
+        submission
+      </td>
+      <td>
+        $formName
+      </td>
+      <td>
+        _submitted
+      </td>
+      <td>
+      </td>
+      <td>
+        read only
+      </td>
+    </tr>
+    <tr>
+      <td>
         plan
+      </td>
+      <td>
       </td>
       <td>
         title
@@ -87,6 +128,8 @@ The following fixed attributes are available
         plan
       </td>
       <td>
+      </td>
+      <td>
         startDate
       </td>
       <td>
@@ -100,6 +143,8 @@ The following fixed attributes are available
         plan
       </td>
       <td>
+      </td>
+      <td>
         endDate
       </td>
       <td>
@@ -111,6 +156,8 @@ The following fixed attributes are available
     <tr>
       <td>
         plan
+      </td>
+      <td>
       </td>
       <td>
         status
@@ -127,6 +174,8 @@ The following fixed attributes are available
         plan
       </td>
       <td>
+      </td>
+      <td>
         riskStatus
       </td>
       <td>
@@ -137,7 +186,154 @@ The following fixed attributes are available
     </tr>
     <tr>
       <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        title
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        firstName
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        middleName
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        lastName
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        fullNam
+      </td>
+      <td>
+      </td>
+      <td>
+        read
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        email
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+        <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        phone
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        dateOfBirth
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
+        user
+      </td>
+      <td>
+        $role
+      </td>
+      <td>
+        gender
+      </td>
+      <td>
+      </td>
+      <td>
+        read-write
+      </td>
+    </tr>
+    <tr>
+      <td>
         workQueueItem
+      </td>
+      <td>
+        $workQueueName
       </td>
       <td>
         title
@@ -153,6 +349,9 @@ The following fixed attributes are available
         workQueueItem
       </td>
       <td>
+        $workQueueName
+      </td>
+      <td>
         createdAt
       </td>
       <td>
@@ -164,6 +363,9 @@ The following fixed attributes are available
     <tr>
       <td>
         workQueueItem
+      </td>
+      <td>
+        $workQueueName
       </td>
       <td>
         ticketNumber
@@ -179,6 +381,9 @@ The following fixed attributes are available
         workQueueItem
       </td>
       <td>
+        $workQueueName
+      </td>
+      <td>
         priority
       </td>
       <td>
@@ -190,6 +395,9 @@ The following fixed attributes are available
     <tr>
       <td>
         workQueueItem
+      </td>
+      <td>
+        $workQueueName
       </td>
       <td>
         serviceLocation
@@ -205,6 +413,9 @@ The following fixed attributes are available
         workQueueItem
       </td>
       <td>
+        $workQueueName
+      </td>
+      <td>
         queuePosition
       </td>
       <td>
@@ -216,6 +427,9 @@ The following fixed attributes are available
     <tr>
       <td>
         workQueueItem
+      </td>
+      <td>
+        $workQueueName
       </td>
       <td>
         status
@@ -231,6 +445,6 @@ The following fixed attributes are available
   </tbody>
 </table>
 
-
+Where $formName, $subject, $workQueueName, and $roleName are the names of the form, subject, work queue, and role respectively.
 
 

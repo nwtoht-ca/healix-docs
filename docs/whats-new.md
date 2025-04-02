@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # What's New?
@@ -19,8 +19,24 @@ As of May 2024, the following major features are available:
 
 ## June 2024, v6.1
 
-* [Public Devices](./public-devices/)
-* [Secure Landing Pages](./admin/plan-locking)
-* [Adding to a Work Queue](./work-queues/adding-to-a-work-queue)
-* [Integration Configuration](./admin/configuring-integrations)
-* [Export Plan](./admin/export-plan)
+* [Public Devices](./public-devices/) - Healix can now run on a kiosk or tablets in a waiting room.
+* [Secure Landing Pages](./admin/plan-locking) - Landing pages can be locked down so that links expire or a user must complete another flow before accessing the page.
+* [Adding to a Work Queue](./work-queues/adding-to-a-work-queue) - Users can now be added to a work queue.
+* [Integration Configuration](./admin/configuring-integrations) - Integrations can now be configured to use a WebHook or a Pub/Sub model.
+* [Export Plan](./admin/export-plan) - Plan data can now be exported to a json file
+
+## September 2024, v6.2
+
+* User added to the [Dynamic Data Model](./dynamic-data-model/).  This allows Content Managers to use rules towrite form values to a user's profile and user data is available.
+* A Content Manage can now configure the Order of [Work Queue Items](./work-queues/creating-work-queues/edit-presentation)
+* Work Queue definitions where moved from the main menu to the Work Queues tab of the [Plan Editor](./creating-plans/index.md)
+* [Work Queue Displays](./work-queue-display/) allow content managers to configure the display of work queues on large monitors intended for a waiting room or similar area.
+* A Content Manager can now define a rule that log out a user and end their session. See [Action](./creating-plans/rules/action.md) for more information.
+
+## October 2024, v6.3
+
+* A Content Manager can now define Service Locations associated with a work queue status.  See [Edit Work Queue](./work-queues/creating-work-queues/edit-work-queue.md) for more information.
+* The Public Device and Work Queue Display are now subject to IP White Listing.  See [IP White Listing](./admin/ip-white-list/) for more information.
+* A Content Manage can better configure the landing page and if a user should be invited to sign up or not. This was accomplished by removing the *Availability Type* field on the [Overview Tab](./creating-plans/overview-tab.md) of the Plan Editor and adding new options to the *Landing Page* section of the [Presentation Tab](./creating-plans/presentation/landing-page).
+* Work Queues can now be consolidated into a single list. (DOCS TODO)
+* A Work Queue definition can now be imported from a different plan. (DOCS TODO)

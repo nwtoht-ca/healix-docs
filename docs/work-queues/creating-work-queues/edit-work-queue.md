@@ -17,7 +17,6 @@ The Overview tab of the work queue editor allows the configuration of the essent
 * *Title* - The Title is shown to users in order to access the work queue
 * *Description* - Some text to describe the purpose of the work queue
 * *Statuses* - Various statuses can be configured
-* *Service Locations* - Service locations, e.g. Window 1 or Window 2, can be configured.
 
 ## Statuses
 
@@ -34,10 +33,20 @@ Clicking on will edit and clicking on the + button will create a new Status.
 * *Change To Label* - this label is shown when giving users the choice to move a work queue item to this status.
 * *Description* - A description of the status
 * *Step Number* - Typically, a work queue item moves through a series of steps.  This number defines that order which in turn, determines the order that statuses are presented to users.
-* *Auto Close* - Turning on Auto Close and entering a duration causes items to be automatically dropped from the work queue item list after the specified period of inactivity.  For example, if 1 is entered in the Days field for the "closed" status, then closed work queue items will appear for one day after the last activity allowing it to be reopened or appear in search.  
+* *Auto Close* - Turning on Auto Close and entering a duration causes items to be automatically dropped from the work queue item list after the specified period of inactivity.  For example, if 1 is entered in the Days field for the "closed" status, then closed work queue items will appear for one day after the last activity allowing it to be reopened or appear in search.  Note: Locking a work queue item is considered an activity so simply clicking a work queue item will reset the clock.
+* *Service Locations* - This switch allows the status to be associated with one or more Service Locations.
 
-:::note
 
-Locking a work queue item is considered an activity so simply clicking a work queue item will reset the clock.
+### Service Locations
 
-:::
+When the Service Locations switch is on, the *Edit* button beside the Service Locations list is enabled.  Clicking on this button displays a list of Service Locations.
+
+![Service Location List](./img/service-location-list.png)
+
+Each status can be associated with one or more Service Locations allowing staff to direct users to the appropriate location at the appropriate step in the work flow.
+
+Clicking *Add* or clicking on the name of a service location brings up the Service Location Editor for the selected service location.
+
+![Edit Service Location](./img/edit-service-location.png)
+
+Staff can [select the service location from the drop down list](../using-work-queues/#selecting-a-service-location) when editing a work queue item.
