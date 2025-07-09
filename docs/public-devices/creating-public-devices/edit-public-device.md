@@ -50,6 +50,8 @@ Chrome OS also has special kiosk features.
 
 The *Test* tab is used to preview the Public Device Configuration. It varies from the "real" device in that QR Codes are clickable (for testing purposes) and navigation to other parts of Healix is possible.
 
+## IP White Listing
 
+Note that the test tab is also subject to IP White Listing.  See [IP White Listing](../../admin/ip-white-list/) for more information.  A link to the IP White Listing page is provided on the Overview tab.
 
 

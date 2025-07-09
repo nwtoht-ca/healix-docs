@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # IP White List
 
-The IP White List is available from the Administration menu and linked from the Overview tab of [Public Device](../creating-public-devices/edit-public-device) editor.
+The IP White List is available from the Administration menu and linked from the Overview tab of [Public Device](../../public-devices/) and [Work Queue Display](../../work-queue-display/) editors.
 
 ![White List](./img/ip-white-list.png)
 
